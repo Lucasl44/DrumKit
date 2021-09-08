@@ -1,3 +1,5 @@
+document.getElementById("myAudio").preload = "auto";
+
 document.addEventListener("keydown", logKey)
 function logKey(event){    
     let key = event.key;
