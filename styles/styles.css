@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  color: lightpink;
+}
+.keys {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: lightpink;
+}
+h1 {
+  text-align: center;
+  color: lightpink;
+}
+.boxes {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 30px;
+}
+#circle {
+  background-color: lightpink;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#rectangle {
+  height: 40px;
+  width: 70px;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: lightpink;
+  border-radius: 10%;
+}
